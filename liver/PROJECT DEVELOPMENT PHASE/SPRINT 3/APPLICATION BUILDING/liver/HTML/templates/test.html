@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <form action="" class="form">
+          <div class="form-group">
+            <label for="userName" class="form-label"> Name :</label>
+            <input
+              required
+              type="number"
+              name="userName"
+              id="userName"
+              class="form-input"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label"> Email : </label>
+            <input
+              required
+              type="number"
+              name="email"
+              id="email"
+              class="form-input"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phoneno" class="form-label"> Phone No : </label>
+            <input
+              required
+              type="number"
+              name="phoneno"
+              id="phoneno"
+              class="form-input"
+            />
+          </div>
+          <div class="form-group">
+            <label for="address" class="form-label"> Address : </label>
+            <textarea
+              required
+              type="number"
+              name="address"
+              id="address"
+              class="form-input"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="gender" class="form-label">Gender :</label>
+            <span>Male </span>
+            <input type="radio" class="radio" name="gender" value="male" />
+            <span>Female </span>
+            <input type="radio" class="radio" name="gender" value="female" />
+          </div>
+          <div class="form-group">
+            <label for="password" class="form-label"> Password : </label>
+            <input
+              required
+              type="number"
+              name="password"
+              id="password"
+              class="form-input"
+              pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+            />
+          </div>
+          <div class="form-group">
+            <label for="retype-password" class="form-label"
+              >Re-Enter Password :
+            </label>
+            <input
+              required
+              type="number"
+              name="retype-password"
+              id="retype-password"
+              class="form-input"
+              pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+            />
+          </div>
+          <div class="form-actions">
+            <button class="form-button form-reset" type="reset">Reset</button>
+            <button class="form-button form-submit" type="submit">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
